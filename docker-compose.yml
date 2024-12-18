@@ -44,7 +44,7 @@ services:
     environment:
       PMA_HOST: db
       PMA_PORT: 3306
-      PMA_ABSOLUTE_URI: localhost:8081
+      PMA_ABSOLUTE_URI: http://localhost/pma/
       MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
     links:
       - db
